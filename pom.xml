@@ -120,14 +120,14 @@
                 <configuration>
                     <scanIntervalSeconds>1</scanIntervalSeconds>
                     <webAppConfig>
-                        <contextPath>/news</contextPath>
+                        <contextPath>/</contextPath>
                     </webAppConfig>
-                    <connectors>
-                        <connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">
-                            <port>8080</port>
-                            <maxIdleTime>60000</maxIdleTime>
-                        </connector>
-                    </connectors>
+                    <!--<connectors>-->
+                        <!--<connector implementation="org.eclipse.jetty.server.nio.SelectChannelConnector">-->
+                            <!--<port>8080</port>-->
+                            <!--<maxIdleTime>60000</maxIdleTime>-->
+                        <!--</connector>-->
+                    <!--</connectors>-->
                 </configuration>
             </plugin>
             <plugin>
